@@ -14,17 +14,18 @@
 
 <body>
     <section id="landing">
-        <nav>
-            <div class="row nav__row">
+        <nav class="nav">
+            <div class="row__container">
                 <div class="nav__logo">
                     <img class="logo" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg">
-                <!--  -->Treact<!--  -->
+                <!--  --><h2>Treact</h2><!--  -->
                 </div>
-                <div class="links">    
+                <div class="nav__links">    
                     <a href="#"> About</a>
                     <a href="#">Blog</a>
                     <a href="#">Pricing</a>
                     <a href="#">Contact Us</a>
+                    <a href="#">Login</a>
                     <a href="#" class="link--primary">Sign Up</a>
                 </div>
                 <button class="btn__menu" onclick="openMenu()">
@@ -57,10 +58,29 @@
             </div>
         </div>
         <header>
-            <div class="container">
-                <div class="row row__header">
-                <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
-                <p class="header .row">Our templates are easy to setup, understand and customize. fully modular components with a variety of pages and components</p>
+            <div class="header__container">
+                <div class="row">
+                <h1 class="header__title">
+                    Beautiful React Templates<span class="purple"> for you.</span>
+                </h1>
+
+                <p class="header__para">
+                Our templates are easy to setup, understand and customize. fully modular components with a variety of pages and components
+            </p>
+            </div>
+            <div class="headerMe__action">
+                <input type="text" placeholder="Your E-mail Address">
+                <button>Get Started</button>
+            </div>
+                <div class="headerMe__customerlogo">
+                  <p>Our TRUSTED Customers</p>  
+                  <img src="/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Our Customers">
+            </div>
+            <div class="headerMe">
+                <div class="headerMe__container">
+                    <img src="/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="Design Illustration" class="">
+                </div>
+
             </div>
         </header>
     </section>
